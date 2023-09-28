@@ -1,12 +1,9 @@
-/* NEW: including fonts via @fontface. also, directly downloaded the fonts to this project. */
 @font-face {
     font-family: "GilsFont";
     src: url(./fonts/Roboto-Black.ttf) format("truetype"), url(./fonts/Roboto-BlackItalic.ttf) format("truetype");
-    /*NOTE: "truetype" works. "ttf" does not */
 }
 
 body {
-    /* NOTE: sachez que l'on peut faire afficher cette image en utilsant javascript ou html */
     background-image: url(./img/logo.png);
     height: 100%;
 }
