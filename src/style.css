@@ -1,4 +1,5 @@
 body {
-    background-color: orangered;
+    /* NOTE: sachez que l'on peut faire afficher cette image en utilsant javascript ou html */
+    background-image: url(./img/logo.png);
     height: 100%;
 }
